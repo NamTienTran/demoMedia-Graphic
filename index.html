@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .svg1 {
+            border: 1px solid #666;
+            width:400px;
+            height: 300px;
+        }
+
+        .svg1__rect{
+            fill: red;
+            stroke: black;
+            stroke-width: 4px;
+            width: 150px;
+            height: 150px
+        }
+    </style>
+</head>
+<body>
+    <video width="320" height="240" controls preload="none" loop="true" autoplay muted>
+        <source src="./asset/intro.mp4" type="video/mp4">
+    </video>
+    <audio controls>
+        <source src="./asset/music.mp3" type="audio/mpeg">
+    </audio>
+    <svg class="svg1">
+        <rect x="100px" y="50px" rx="10px" ry="10px"></rect>
+    </svg>
+
+    <svg class="svg2">
+        <rect x="400px" y="50px" rx="10px" ry="10px"></rect>
+    </svg>    
+    
+</body>
+</html>
